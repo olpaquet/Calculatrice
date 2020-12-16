@@ -4,7 +4,6 @@ E:\Github\Calculatrice\Calculatrice\bin\Debug\netcoreapp3.1\Calculatrice.runtime
 E:\Github\Calculatrice\Calculatrice\bin\Debug\netcoreapp3.1\Calculatrice.runtimeconfig.dev.json
 E:\Github\Calculatrice\Calculatrice\bin\Debug\netcoreapp3.1\Calculatrice.dll
 E:\Github\Calculatrice\Calculatrice\bin\Debug\netcoreapp3.1\Calculatrice.pdb
-E:\Github\Calculatrice\Calculatrice\obj\Debug\netcoreapp3.1\Calculatrice.csprojAssemblyReference.cache
 E:\Github\Calculatrice\Calculatrice\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 E:\Github\Calculatrice\Calculatrice\obj\Debug\netcoreapp3.1\App.g.cs
 E:\Github\Calculatrice\Calculatrice\obj\Debug\netcoreapp3.1\Calculatrice_MarkupCompile.cache
