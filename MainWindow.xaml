@@ -24,7 +24,7 @@
         </Grid.RowDefinitions>
 
         <Border   Grid.ColumnSpan="4" Margin="10" Grid.Row="0">
-            <TextBlock  Text="0" TextAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock  Text="0" TextAlignment="Right" />
         </Border>
 
         <Button Content="mc" Grid.Row="1" Margin="10"/>
