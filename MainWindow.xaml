@@ -107,6 +107,7 @@
             <Button.Background>
                 <RadialGradientBrush GradientOrigin="0.5,0.5">
                     <GradientStop Color="IndianRed" Offset="0"  />
+                    <GradientStop Color="AliceBlue" Offset="0.5"/>
                     <GradientStop Color="Red" Offset="1"/>
                 </RadialGradientBrush>
             </Button.Background>

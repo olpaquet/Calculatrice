@@ -16,3 +16,4 @@ E:\Github\Calculatrice\Calculatrice\obj\Debug\netcoreapp3.1\Calculatrice.csproj.
 E:\Github\Calculatrice\Calculatrice\obj\Debug\netcoreapp3.1\Calculatrice.dll
 E:\Github\Calculatrice\Calculatrice\obj\Debug\netcoreapp3.1\Calculatrice.pdb
 E:\Github\Calculatrice\Calculatrice\obj\Debug\netcoreapp3.1\Calculatrice.genruntimeconfig.cache
+E:\Github\Calculatrice\Calculatrice\obj\Debug\netcoreapp3.1\Calculatrice.csprojAssemblyReference.cache
