@@ -32,28 +32,78 @@
         <Button FontWeight="Bold" FontSize="12" Background="DarkGray" Foreground="White" Content="M-" Grid.Row="1" Grid.Column="2" Margin="10"/>
         <Button FontWeight="Bold" FontSize="12" Background="DarkGray" Foreground="White" Content="MR" Grid.Row="1"  Grid.Column="3" Margin="10"/>
 
-        <Button FontWeight="Bold" FontSize="12" Background="Maroon" Foreground="White" Content="C" Grid.Row="2" Margin="10"/>
+        <Button FontWeight="Bold" FontSize="12" Foreground="White" Content="C" Grid.Row="2" Margin="10">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+                    <GradientStop Color="MediumAquamarine" Offset="0"/>
+                    <GradientStop Color="Maroon" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
-        <Button FontWeight="Bold" FontSize="12" Background="Maroon" Foreground="White" Content="+-" Grid.Row="2" Grid.Column="1" Margin="10"/>
-        <Button FontWeight="Bold" FontSize="12" Background="Maroon" Foreground="White" Content="/" Grid.Row="2" Grid.Column="2" Margin="10"/>
-        <Button FontWeight="Bold" FontSize="15" Background="Maroon" Foreground="White" Content="*" Grid.Row="2"  Grid.Column="3" Margin="10"/>
+        <Button FontWeight="Bold" FontSize="12" Foreground="White" Content="+-" Grid.Row="2" Grid.Column="1" Margin="10">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+                    <GradientStop Color="MediumAquamarine" Offset="0"/>
+                    <GradientStop Color="Maroon" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button FontWeight="Bold" FontSize="12" Foreground="White" Content="/" Grid.Row="2" Grid.Column="2" Margin="10">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+                    <GradientStop Color="MediumAquamarine" Offset="0"/>
+                    <GradientStop Color="Maroon" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button FontWeight="Bold" FontSize="15" Foreground="White" Content="*" Grid.Row="2"  Grid.Column="3" Margin="10">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+                    <GradientStop Color="MediumAquamarine" Offset="0"/>
+                    <GradientStop Color="Maroon" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
         <Button FontWeight="Bold" FontSize="12" Background="Black" Foreground="White" Content="1" Grid.Row="3" Margin="10"/>
         <Button FontWeight="Bold" FontSize="12" Background="Black" Foreground="White" Content="2" Grid.Row="3" Grid.Column="1" Margin="10"/>
         <Button FontWeight="Bold" FontSize="12" Background="Black" Foreground="White" Content="3" Grid.Row="3" Grid.Column="2" Margin="10"/>
-        <Button FontWeight="Bold" FontSize="15" Background="Maroon" Foreground="White" Content="-" Grid.Row="3"  Grid.Column="3" Margin="10"/>
+        <Button FontWeight="Bold" FontSize="15" Foreground="White" Content="-" Grid.Row="3"  Grid.Column="3" Margin="10">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+                    <GradientStop Color="MediumAquamarine" Offset="0"/>
+                    <GradientStop Color="Maroon" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
 
         <Button FontWeight="Bold" FontSize="12" Background="Black" Foreground="White" Content="4" Grid.Row="4" Margin="10"/>
         <Button FontWeight="Bold" FontSize="12" Background="Black" Foreground="White" Content="5" Grid.Row="4" Grid.Column="1" Margin="10"/>
         <Button FontWeight="Bold" FontSize="12" Background="Black" Foreground="White" Content="6" Grid.Row="4" Grid.Column="2" Margin="10"/>
-        <Button FontWeight="Bold" FontSize="15" Background="Maroon" Foreground="White" Content="+" Grid.Row="4"  Grid.Column="3" Margin="10"/>
+        <Button FontWeight="Bold" FontSize="15"  Foreground="White" Content="+" Grid.Row="4"  Grid.Column="3" Margin="10">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+                    <GradientStop Color="MediumAquamarine" Offset="0"/>
+                    <GradientStop Color="Maroon" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
         <Button FontWeight="Bold" FontSize="12" Background="Black" Foreground="White" Content="7" Grid.Row="5" Margin="10"/>
         <Button FontWeight="Bold" FontSize="12" Background="Black" Foreground="White" Content="8" Grid.Row="5" Grid.Column="1" Margin="10"/>
         <Button FontWeight="Bold" FontSize="12" Background="Black" Foreground="White" Content="9" Grid.Row="5" Grid.Column="2" Margin="10"/>
-        <Button FontWeight="Bold" FontSize="15" Background="IndianRed" Foreground="White" Content="=" Grid.Row="5"  Grid.Column="3" Margin="10" Grid.RowSpan="2"/>
-
+        <Button FontWeight="Bold" FontSize="15"  Foreground="White" Content="=" Grid.Row="5"  Grid.Column="3" Margin="10" Grid.RowSpan="2">
+            <Button.Background>
+                <RadialGradientBrush GradientOrigin="0.5,0.5">
+                    <GradientStop Color="IndianRed" Offset="0"  />
+                    <GradientStop Color="Red" Offset="1"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
         <Button FontWeight="Bold" FontSize="12" Background="Black" Foreground="White" Content="0" Grid.Row="6" Margin="10" Grid.ColumnSpan="2"/>
+        
         <Button FontWeight="Bold" FontSize="12" Background="Black" Foreground="White" Content="," Grid.Row="6" Grid.Column="2" Margin="10"/>
         
 
